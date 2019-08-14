@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PageController {
     @RequestMapping("/")
     public String index(){
-        int a = 10;
+        int a = 11;
         return "main";
     }
 }
